@@ -1,0 +1,34 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    color: #333;
+    margin: 15px;
+}
+div{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 15px;
+}
+
+.Nombre{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0px;
+}
+
+footer{
+    background-color: aqua;
+}
+
+.p-footer {
+    background-color: aqua;
+    margin: 0px;
+}

@@ -3,31 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Mi primer sitio de noticias.</title>
 </head>
+
 <body>
-    <!--Contenido de la pagina-->
-    <div>
-        <p>
-            Arny Saenz Castro.
-        </p>
-    </div>
-    <div>
-        <p>Agrupar elementos.</p>        
-    </div>
-    <div>
-        <ul>
-            <p>Opcion1</p>
-            <p>Opcion2</p>
-            <p>Opcion3</p>
-        </ul>
-    </div>
-    <div>
-        <ol>
-            <p>Opcion1</p>
-            <p>Opcion2</p>
-            <p>Opcion3</p>
-        </ol>
-    </div>
+
+    <header>
+        <h1>Este es el títuto principal.</h1>
+        <span><b>INICIO - </b></span>
+        <span><b>NOTICIAS - </b></span>
+        <span><b>CLIMA</b></span>
+    </header>
+
+    <main>
+
+        <img src="unnamed.png"/>
+
+        <section>
+            <h2>Este es un título de una sección de noticias.</h2>
+            <article>
+                <h3>Esta es la noticia N°1</h3>
+                <div>
+                    <p>Este será el primer párrafo de mi noticia muy importante.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, odit? Fuga adipisci praesentium pariatur nostrum quis aperiam alias quia, animi beatae nesciunt suscipit accusamus incidunt reprehenderit, cumque labore eaque qui.</p>
+                </div>
+            </article>
+
+            <hr />
+
+            <article>
+                <h3>Esta es la noticia N°2 (OL)</h3>
+                <div>
+                    <p>Este es un listado de cosas importantes para esta noticia</p>
+                    <ol>
+                        <li>Este es el item 1</li>
+                        <li>Este es el item 2</li>
+                        <li>Este es el item 3</li>
+                    </ol>
+                </div>    
+            </article>
+
+            <hr />
+
+            <article>
+                <h3>Esta es la noticia N°3 (UL)</h3>
+                <div>
+                    <p>Este listado de cosas importantes no estará ordenado</p>
+                    <ul>
+                        <li>Este es un elemento.</li>
+                        <li>Este es un elemento adicional.</li>
+                        <li>Este es otro elemento adicional.</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+    <hr/>
+
+    <footer>
+        <p class="p-footer">Este es el footer de mi página. Ahora voy a poner unos enlaces</p>
+        <a href="./contacto.html">Formulario de Contacto</a>
+    </footer>
+   
 </body>
 </html>
